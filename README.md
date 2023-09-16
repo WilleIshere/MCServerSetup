@@ -1,6 +1,6 @@
 # MCServerSetup
 
-This is a tool for very easily setting up your own minecraft server!
+This tool makes it really easy to set up your own minecraft server!
 
 ## Requirements:
 ```

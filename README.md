@@ -34,16 +34,10 @@ Git
    cd MCServerSetup
    ```
    Then
-   ```python
-   python setup.py
-   ```
-   Press "y" and then "Enter" to begin the installation of the required libraries
-
-6. After the installation have completed run the command:
    ```
    python main.py
    ```
-   And follow the steps
+   Then just follow the steps of the program :)
 
 
 Now you can delete the files: setup.py and main.py

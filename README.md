@@ -15,9 +15,12 @@ Git
 
 ## Setup:
 
-1. Open CMD
+1. Open CMD and run command:
+   ```python
+   pip install pip install colorama==0.4.6, pip install tqdm==4.66.1, pip install requests==2.31.0, pip install art==6.0"
+   ```
    
-2. Run commands:
+3. Run commands:
    ```
    cd <EMPTY_FOLDER>
    ```

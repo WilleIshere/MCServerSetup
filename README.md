@@ -40,6 +40,4 @@ Git
    Then just follow the steps of the program :)
 
 
-Now you can delete the files: setup.py and main.py
-
-To start the server just click on run.bat
+To start the server by just click on run.bat

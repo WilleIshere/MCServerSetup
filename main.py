@@ -14,6 +14,7 @@ ram = 4
 
 forgev = {
     "versions": {
+        "1.20.2": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.2-48.0.26/forge-1.20.2-48.0.26-installer.jar",
         '1.20.1': 'https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.1.0/forge-1.20.1-47.1.0-installer.jar', 
          '1.20': 'https://maven.minecraftforge.net/net/minecraftforge/forge/1.20-46.0.14/forge-1.20-46.0.14-installer.jar', 
          '1.19.4': 'https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.1.0/forge-1.19.4-45.1.0-installer.jar', 
@@ -43,6 +44,7 @@ forgev = {
 
 paperv = {
     "versions": {
+        "1.20.2": "https://api.papermc.io/v2/projects/paper/versions/1.20.2/builds/234/downloads/paper-1.20.2-234.jar",
         "1.20.1": "https://api.papermc.io/v2/projects/paper/versions/1.20.1/builds/172/downloads/paper-1.20.1-172.jar",
         "1.20": "https://api.papermc.io/v2/projects/paper/versions/1.20/builds/17/downloads/paper-1.20-17.jar",
         "1.19.4": "https://api.papermc.io/v2/projects/paper/versions/1.19.4/builds/550/downloads/paper-1.19.4-550.jar",
@@ -179,7 +181,6 @@ def forge():
         f.write(data.content)
 
     call(f"java -jar {ver}.jar --installServer")
-    print(not path.exists("run.bat"))
     if not path.isfile("run.bat"):
         dir = listdir()
         list = ["minecraft"]

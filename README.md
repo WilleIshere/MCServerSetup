@@ -2,6 +2,8 @@
 
 This tool makes it really easy to set up your own minecraft server! Vanilla, plugins or forge!
 
+**Does not support snapshot versions yet**
+
 ## Requirements:
 ```
 python 3.6+

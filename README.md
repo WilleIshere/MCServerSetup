@@ -5,6 +5,7 @@ This tool makes it really easy to set up your own minecraft server! Vanilla, plu
 
 # Warnings
 Only tested on windows
+
 Does not support snapshot versions yet
 
 ## Requirements:

@@ -4,8 +4,8 @@ This tool makes it really easy to set up your own minecraft server!
 
 ## Requirements:
 ```
-python3(recomended 3.6+)
-Over 4gb Ram
+python 3.6+
+< 4gb Ram
 < 5gb Free memory(Minimum 1gb)
 ```
 

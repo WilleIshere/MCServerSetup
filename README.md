@@ -17,7 +17,7 @@ Git
 
 1. Open CMD and run command:
    ```
-   pip install colorama==0.4.6, pip install tqdm==4.66.1, pip install requests==2.31.0, pip install art==6.0
+   pip install colorama==0.4.6 tqdm==4.66.1 requests==2.31.0 art==6.0
    ```
    
 3. Run commands:

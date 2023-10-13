@@ -9,7 +9,6 @@ from time import sleep
 from json import loads
 from art import tprint
 
-
 ram = 4
 
 forgev = {
@@ -70,7 +69,6 @@ paperv = {
 }
 
 init()
-
 
 def setupServer():
     print(f"{Fore.CYAN}Running server setup...{Style.RESET_ALL}")
@@ -136,9 +134,7 @@ def setup():
                 forge()
                 break
             case _:
-                print(f"{Fore.RED}Invalid server type{Style.RESET_ALL}")
-                    
-
+                print(f"{Fore.RED}Invalid server type{Style.RESET_ALL}")    
 
 def download(url):
     with get(url, stream=True) as r:
